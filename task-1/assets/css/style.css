@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 300px;
+    border: 1px solid gray;
+}
+
+.card .card-img{
+    width: 100%;
+    position: relative;
+}
+
+.card .card-img img{
+    width: 100%;
+}
+.card .card-img .date-time{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 50px;
+}
+
+.card .card-img .date-time .date{
+    background-color: #018792;
+}
+
+.card .card-img .date-time .date p{}
+
+.card .card-img .date-time .time {
+    background-color: #3a4863;
+}
+
+.card .card-img .date-time .time p {}
+
+.card .card-body{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 18px;  
+    
+}
+
+.card .card-body p{}
+
+.card .statics{}
+.card .statics .rayting::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.card .statics .rayting{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 15px;
+    cursor: pointer;
+}
+.card .statics .rayting:first-child:hover{
+    background-color: green;
+    color: white;
+}
+.card .statics  .dislike:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.card .statics .rayting i{}
+
+.card .statics .rayting span{}
